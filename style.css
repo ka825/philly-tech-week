@@ -80,21 +80,32 @@ h1{
 .speakers-heading{
 
 width: 100%;
-   text-align: center;
+text-align: center;
+color: white;
+padding-top: 3em;
   
    
    
    
 }
-.speakers {
+.speakers-background {
     background-image: url(/images/speakers-background.jpg);
     background-size: 100%;
     position: relative;
     height: 100vh;
+}
+.speakers {
+
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "speaker-one speaker-two speaker-three";
+    /** grid-template-columns: repeat(3, 1fr); **/
     gap: 1em;
-    align-content: center;
+    width: 50%;
+  
+    
+    
+   
+   
     
     
    
@@ -125,5 +136,15 @@ width: 100%;
 
 
 
+.tracks {
+    padding: 7em 0;;
+}
 
-
+.tracks h1 {
+    text-align: center;;
+    color: #00579E;
+}
+.tracks p {
+    font-size: 1.2em;
+    text-align: center;
+}
