@@ -15,6 +15,12 @@ h1{
     padding: 0;
 }
 
+h2{
+    font-family: orbitron;
+    margin: 0;
+    padding: 0;
+}
+
 .logo{
     padding-left: 2.5em;
     color: white;
@@ -133,6 +139,7 @@ nav a:hover {
   top: 8px;
 }
   
+
 
 
 
@@ -317,33 +324,46 @@ footer {
 }
 
 .footer-logo{
+   
     display: flex;
+    justify-content: left;
     text-transform: uppercase;
     font-weight: medium;
     font-size: 1.7em;
-    padding-bottom: 30px;;
+    width: 22%;
+    
+
     
 }
 
 .first-green-line {
 
-    margin-bottom: -10px;
+    margin-bottom: -8px;
 }
 
 .second-green-line {
-    margin-top: -10px;;
+    margin-top: -5px;;
 }
 
+
+
 .footer-ul {
-    display: flex;
-    list-style-type: none;
-    gap: 2em;
-    justify-content: right;
-    font-size: 0.9em;
+display: flex;
+justify-content: right;
+list-style-type: none;
+gap: 2em;
+font-size: 0.9em;
+padding: auto;
+    
+    
 
     
 
 }
+.footer-rights {
+    display: flex;
+}
+
 
 footer a {
     color: white;
@@ -354,12 +374,24 @@ footer a {
     
 }
 
+footer a:hover {
+    color: #A2E006 ;
+}
+
+
+.footer-contact, .footer-rights {
+    text-align: center;
+    width: 21%;
+    font-size: 0.9em;
+}
+
 .icons-footer {
     display: flex;
     justify-content: right;
     gap: 1em;
    
 }
+
 
 .facebook-icon {
     background-image: url(/images/facebook-icon.png);
@@ -409,3 +441,85 @@ footer a {
 }
 
 
+
+
+.calendar-page {
+    margin: 7em 0;
+}
+
+.calendar-heading {
+    text-transform: uppercase;
+    color: #00579E;
+    padding-bottom: 1em;
+}
+
+.calendar-card {
+    background-color:#CAD7ED;
+    
+}
+
+.card-text {
+    padding:  1em 2em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.talk-name {
+    text-transform: uppercase;
+    color: #00579E;
+    width: 70%;
+}
+
+.talk-date{
+padding-top: 15px;
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.faq-page{
+    margin: 7em 0;
+}
+
+.faq-heading {
+    text-transform: uppercase;
+    color: #00579E;
+    padding-bottom: 1em;
+}
+
+.question {
+    color: #00579E ;
+}
+
+
+.youtube-section {
+    padding: 7em 0;
+    background-color:#CAD7ED ;
+    width: 100%;
+}
+
+.faq-page li{
+    list-style: square;
+    
+}
+
+
+.youtube-video {
+
+text-align: center;
+}
