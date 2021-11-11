@@ -319,21 +319,16 @@ padding-bottom: 1em;
 footer {
     background-color: #00579E;
     color: white;
-    padding: 4em 5em;
-
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+   
 }
 
 .footer-logo{
-   
-    display: flex;
-    justify-content: left;
     text-transform: uppercase;
     font-weight: medium;
     font-size: 1.7em;
-    width: 22%;
-    
-
-    
 }
 
 .first-green-line {
@@ -354,14 +349,7 @@ list-style-type: none;
 gap: 2em;
 font-size: 0.9em;
 padding: auto;
-    
-    
 
-    
-
-}
-.footer-rights {
-    display: flex;
 }
 
 
@@ -370,6 +358,7 @@ footer a {
     text-decoration: none;
     font-size: 1em;
     text-transform: uppercase;
+    font-weight: 500;
 
     
 }
@@ -381,15 +370,14 @@ footer a:hover {
 
 .footer-contact, .footer-rights {
     text-align: center;
-    width: 21%;
     font-size: 0.9em;
 }
 
 .icons-footer {
     display: flex;
     justify-content: right;
-    gap: 1em;
-   
+    gap: 1em;   
+    padding-top: 10px;
 }
 
 
@@ -459,9 +447,8 @@ footer a:hover {
 }
 
 .card-text {
-    padding:  1em 2em;
+    padding:  1em 2em 0em  2em;
     display: flex;
-    width: 100%;
     justify-content: space-between;
     
     
@@ -477,11 +464,46 @@ footer a:hover {
 .talk-date{
 padding-top: 15px;
 
-   
+}
 
+.talk-description {
+    padding: 0em 2em 2em 2em;
+
+       
+       
+}
+
+ 
+.two-calendar-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+.calendar-medium-card {
+    background-color:#CAD7ED;
+    width: 66%;
 
 }
 
+.calendar-small-card{
+    background-color:#CAD7ED;
+    width: 32%;
+
+}
+
+.small-card-text{
+    padding:  1em 2em 0em  2em;
+    
+
+}
+
+.calendar-image img{
+    border-bottom: #A2E006 5px solid;
+}
 
 
 
@@ -510,6 +532,8 @@ padding-top: 15px;
 .youtube-section {
     padding: 7em 0;
     background-color:#CAD7ED ;
+    background-image: url(/images/speakers-background.jpg);
+    background-size: cover;
     width: 100%;
 }
 
@@ -523,3 +547,62 @@ padding-top: 15px;
 
 text-align: center;
 }
+
+.sponsors-page {
+    padding: 7em 0;
+}
+.sponsors-heading {
+    text-transform: uppercase;
+    color: #00579E;
+    padding-bottom: 1em;  
+}
+
+.comcast-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  max-width: 40%;
+}
+
+.sponsors-logos img {
+    padding: 30px;
+    
+
+
+}
+.sponsors-logos{
+  max-width: 95%;
+  margin: auto;
+  text-align: center;
+  
+
+   
+}
+
+.form-page {
+    padding: 7em 0;
+
+}
+
+.form-heading {
+    color:white;
+    background-color: #00579E;
+    border-bottom: #A2E006  5px solid;
+    text-transform: uppercase;
+    padding: .5em 3em;
+    border-radius: 20px 0 0 0 ;
+}
+
+form {
+    background-color: #CAD7ED;
+    border-radius: 20px 0 20px 0 ;
+    width: 60%;
+   
+
+}
+
+form div {
+    
+}
+
+
