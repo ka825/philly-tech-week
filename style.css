@@ -580,7 +580,9 @@ text-align: center;
 }
 
 .form-page {
-    padding: 7em 0;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    
 
 }
 
@@ -597,12 +599,42 @@ form {
     background-color: #CAD7ED;
     border-radius: 20px 0 20px 0 ;
     width: 60%;
+    margin: auto;
+    text-align: center;
    
 
 }
 
-form div {
+
+
+form input {
+    border:none;
+    background: none;
+    border-bottom: 2px solid #00579E;
+    margin-bottom: 10px;
+  }
+
+
+
+  .form-button {
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.75em;
+        font-weight: 500;
+        background-color:#00579E;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 5px;
+        margin: 20px 30%;
     
-}
+    }
+    
+    .form-button:hover {
+        color: black;
+        background-color: #A2E006;
+        border: none;
+    }
+  
+
 
 
