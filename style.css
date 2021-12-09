@@ -159,6 +159,7 @@ nav a:hover {
     height: 75vh;
     background-image: url("images/header-philly.jpg");
     background-size: cover;
+
 }
 
 .header-content {
@@ -166,6 +167,11 @@ nav a:hover {
     top: 30%;
     left: 30%;
 }
+
+
+
+
+
 
 .header-button {
     color: white;
@@ -256,7 +262,7 @@ padding-bottom: 1em;
     background: #CAD7ED;
     padding: 1em;
     width: 100%;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .speaker-one{
@@ -633,6 +639,13 @@ form input {
     margin: 10px 0;
   }
 
+  /*
+  .form-field label {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+  }
+  */
  
 
 
@@ -702,7 +715,7 @@ form input {
 
   .cell-text {
     background-color: #ffffff;
-    border: yellowgreen solid 3px;
+    border: #A2E006 solid 3px;
     padding: 25px;
     height: 250px;
     width: 300px;
@@ -717,5 +730,166 @@ form input {
      
       overflow: hidden;
       
+
+  }
+
+  .tech-symbol {
+    display: none;
+}
+
+  @media screen and (max-width: 1000px) {
+
+    .header-content {
+        justify-content: center;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }
+    .header-content img {
+        width: 500px;
+    }
+ 
+
+
+
+
+
+    .speakers {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 800px;
+        height: 750px; 
+    }
+
+
+    
+    .two-calendar-cards {
+        display: block;      
+    }
+
+    .calendar-medium-card {
+        width: 100%;
+    
+    }
+    .calendar-medium-card img{
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    
+    .calendar-small-card{
+        width: 100%;
+        padding-bottom: 20px;
+    
+    }
+
+    .calendar-small-card img{
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    
+    }
+
+    .form-field label {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    label {
+      width: 100%;
+      text-align: center;
+    }
+  
+
+  
+ 
+
+    
+  }
+
+
+  @media screen and (max-width: 800px) {
+    
+   
+
+    .header-content {
+        justify-content: center;
+        position: absolute;
+        top: 25%;
+        left: 18%;
+    }
+    .header-content img {
+        width: 450px;
+    }
+    .header-button{
+        margin-left: 22%;
+    }
+
+
+    .speakers {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+    }
+
+    
+
+    .speakers-background {
+        margin: 7em 0  2em 0;
+        background-image: url(/images/speakers-background.jpg);
+        background-size: cover;
+        position: relative;
+        height: 2000px;
+    }
+
+    .speaker-one{
+        border-radius: 20px 20px 0 0;
+
+    }
+    .speaker-two{
+        border-radius: none;
+        
+    }
+
+    .speaker-three{
+        border-radius: 0 0 20px 20px;
+
+    }
+
+
+
+.track-cards {
+    display: block;
+    justify-content: center;
+   
+}
+.track-card {
+    max-width: 100%;
+    margin: 20px;
+    
+}
+
+
+  .form-field label {
+      width: 100%;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+  }
+  
+  label {
+    width: 100%;
+    text-align: center;
+  }
+
+
+ 
 
   }
