@@ -580,7 +580,7 @@ text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  max-width: 40%;
+width: 300px;
 }
 
 .sponsors-logos img {
@@ -733,9 +733,6 @@ form input {
 
   }
 
-  .tech-symbol {
-    display: none;
-}
 
   @media screen and (max-width: 1000px) {
 
@@ -889,7 +886,16 @@ form input {
     text-align: center;
   }
 
+  .tech-symbol {
+    display: none;
+}
 
+  .about-copy {
+      width: 100%;
+  }
+
+ 
+  
  
 
   }
