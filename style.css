@@ -164,8 +164,22 @@ nav a:hover {
 
 .header-content {
     position: absolute;
-    top: 30%;
-    left: 30%;
+    display: block;
+   margin: 0 auto;
+    width: 100%;
+ 
+}
+
+.header-content img{
+    
+    display: block;
+    margin-top: 150px;
+   
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+
+ 
 }
 
 
@@ -182,7 +196,8 @@ nav a:hover {
     border: none;
     padding: 10px 25px;
     border-radius: 5px;
-    margin: 20px 30%;
+    display: block;
+    margin: 0 auto;
 
 }
 
@@ -221,15 +236,17 @@ padding-bottom: 1em;
    
 }
 .speakers-background {
-    padding: 7em 0  2em 0;
+    padding: 7em 0  0 0;
     background-image: url(/images/speakers-background.jpg);
     background-size: cover;
     position: relative;
     height: 100vh;
+    background-attachment: fixed;
 }
 .speakers {
     display: flex;
     justify-content: center;
+    gap: 15px;
     margin: 0 auto;
     width: 950px;
     height: 600px;
@@ -265,11 +282,22 @@ padding-bottom: 1em;
     margin: 10px auto;
 }
 
-.speaker-one{
+
+.speaker-one  {
     border-radius: 20px 0 0 20px ;
+
+}
+
+.speaker-one  img{
+    border-radius: 20px 0 0 20px ;
+
 }
 
 .speaker-three{
+    border-radius: 0 20px 20px 0;
+}
+
+.speaker-three img{
     border-radius: 0 20px 20px 0;
 }
 
@@ -554,6 +582,7 @@ padding-top: 15px;
     background-image: url(/images/speakers-background.jpg);
     background-size: cover;
     width: 100%;
+    background-attachment: fixed;
 }
 
 .faq-page li{
@@ -736,16 +765,13 @@ form input {
 
   @media screen and (max-width: 1000px) {
 
+
+
     .header-content {
         justify-content: center;
         position: absolute;
-        top: 25%;
-        left: 20%;
+        
     }
-    .header-content img {
-        width: 500px;
-    }
- 
 
 
 
@@ -814,25 +840,14 @@ form input {
     
    
 
-    .header-content {
-        justify-content: center;
-        position: absolute;
-        top: 25%;
-        left: 18%;
-    }
-    .header-content img {
-        width: 450px;
-    }
-    .header-button{
-        margin-left: 22%;
-    }
-
 
     .speakers {
         display: block;
-        justify-content: center;
         text-align: center;
-        width: 40%;
+        width: 250px;
+        max-height: 150px;
+        margin: 0 30%;
+    
     }
 
     
@@ -843,6 +858,7 @@ form input {
         background-size: cover;
         position: relative;
         height: 2000px;
+        background-attachment: fixed;
     }
 
     .speaker-one{
@@ -861,9 +877,27 @@ form input {
 
 
 
+    .speaker-one img{
+        border-radius: 20px;
+    
+    }
+    .speaker-two img{
+        border-radius: 20px;
+    
+    }
+    
+    .speaker-three img{
+        border-radius: 20px ;
+    }
+    
+
+
+
+
+
 .track-cards {
     display: block;
-    justify-content: center;
+    align-content: center;
    
 }
 .track-card {
@@ -893,6 +927,64 @@ form input {
   .about-copy {
       width: 100%;
   }
+
+
+
+footer {
+    background-color: #00579E;
+    color: white;
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer-logo{
+    text-transform: uppercase;
+    font-weight: medium;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.first-green-line {
+
+    margin-bottom: -8px;
+}
+
+.second-green-line {
+    margin-top: -5px;;
+}
+
+
+
+.footer-ul {
+display: flex;
+justify-content: right;
+list-style-type: none;
+font-size: 0.7em;
+padding: auto;
+
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 10px;
+
+    
+}
+
+.footer-contact, .footer-rights {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
 
  
   
