@@ -237,7 +237,7 @@ padding-bottom: 1em;
 }
 .speakers-background {
     padding: 7em 0  0 0;
-    background-image: url(/images/speakers-background.jpg);
+    background-image: url(images/speakers-background.jpg);
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -579,7 +579,7 @@ padding-top: 15px;
 .youtube-section {
     padding: 7em 0;
     background-color:#CAD7ED ;
-    background-image: url(/images/speakers-background.jpg);
+    background-image: url(images/speakers-background.jpg);
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
@@ -854,7 +854,7 @@ form input {
 
     .speakers-background {
         margin: 7em 0  2em 0;
-        background-image: url(/images/speakers-background.jpg);
+        background-image: url(images/speakers-background.jpg);
         background-size: cover;
         position: relative;
         height: 2000px;
