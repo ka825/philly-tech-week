@@ -237,7 +237,7 @@ padding-bottom: 1em;
 }
 .speakers-background {
     padding: 7em 0  0 0;
-    background-image: url(/images/speakers-background.jpg);
+    background-image: url(images/speakers-background.jpg);
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -429,7 +429,7 @@ footer a:hover {
 }
 
 .facebook-icon {
-    background-image: url(/images/facebook-icon.png);
+    background-image: url(images/facebook-icon.png);
     height: 27px;
     width: 27px;
     display: block;
@@ -437,7 +437,7 @@ footer a:hover {
 }
 
 .twitter-icon {
-    background-image: url(/images/twitter-icon.png);
+    background-image: url(images/twitter-icon.png);
     height: 27px;
     width: 27px;
     display: block;
@@ -445,7 +445,7 @@ footer a:hover {
 }
 
 .youtube-icon {
-    background-image: url(/images/youtube\ icon.png);
+    background-image: url(images/youtube\ icon.png);
     height: 27px;
     width: 27px;
     display: block;
@@ -453,14 +453,14 @@ footer a:hover {
 }
 
 .linkedin-icon {
-    background-image: url(/images/linkedin-icon.png);
+    background-image: url(images/linkedin-icon.png);
     height: 27px;
     width: 27px;
     display: block;
     position: relative;
 }
 .email-icon {
-    background-image: url(/images/email-icon.png);
+    background-image: url(images/email-icon.png);
     height: 27px;
     width: 27px;
     display: block;
@@ -468,7 +468,7 @@ footer a:hover {
 }
 
 .share-icon {
-    background-image: url(/images/share-icon.png);
+    background-image: url(images/share-icon.png);
     height: 27px;
     width: 27px;
     display: block;
@@ -579,7 +579,7 @@ padding-top: 15px;
 .youtube-section {
     padding: 7em 0;
     background-color:#CAD7ED ;
-    background-image: url(/images/speakers-background.jpg);
+    background-image: url(images/speakers-background.jpg);
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
@@ -854,7 +854,7 @@ form input {
 
     .speakers-background {
         margin: 7em 0  2em 0;
-        background-image: url(/images/speakers-background.jpg);
+        background-image: url(images/speakers-background.jpg);
         background-size: cover;
         position: relative;
         height: 2000px;
