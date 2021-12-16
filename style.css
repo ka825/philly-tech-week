@@ -236,7 +236,7 @@ padding-bottom: 1em;
    
 }
 .speakers-background {
-    padding: 7em 0  0 0;
+    padding: 7em 0 5em 0;
     background-image: url(images/speakers-background.jpg);
     background-size: cover;
     position: relative;
